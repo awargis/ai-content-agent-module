@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "name": "Example RSS",
+      "type": "rss",
+      "url": "https://example.com/feed.xml",
+      "category": "technology",
+      "priority": 10,
+      "enabled": false,
+      "max_items": 10
+    },
+    {
+      "name": "Example Website",
+      "type": "website",
+      "url": "https://example.com/news",
+      "category": "technology",
+      "priority": 8,
+      "enabled": false,
+      "max_items": 10,
+      "selectors": {
+        "article": "article",
+        "title": "h1",
+        "content": "article",
+        "date": "time",
+        "author": "[rel='author']",
+        "image": "article img"
+      }
+    }
+  ]
+}

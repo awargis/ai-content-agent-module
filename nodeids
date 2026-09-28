@@ -1,0 +1,8 @@
+[
+  "tests/test_deduplication.py::test_content_hash_is_stable",
+  "tests/test_deduplication.py::test_different_articles_have_different_ids",
+  "tests/test_deduplication.py::test_same_source_and_url_same_id",
+  "tests/test_normalization.py::test_normalize_text",
+  "tests/test_normalization.py::test_normalize_url_removes_fragment",
+  "tests/test_normalization.py::test_parse_date_to_utc"
+]
